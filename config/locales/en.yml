@@ -111,7 +111,7 @@ en:
       shared_access:
         info: Setting to disabled will remove the button from the Room options dropdown, preventing users from sharing rooms
         title: Allow Users to Share Rooms
-      subtitle: Customize Greenlight
+      subtitle: Customize CSI Connect
       tabs:
         appearance: Appearance
         administration: Administration
@@ -258,10 +258,10 @@ en:
       contact_admin: If you are not an administrator, please contact one.
       continue: I'd like to stay using 1.0.
       notice: >
-        Greenlight encountered a database migration error.<br>
-        This may be because you haven't updated to Greenlight 2.0.
+        CSI Connect encountered a database migration error.<br>
+        This may be because you haven't updated to CSI Connect 2.0.
       upgrade: Show me how to upgrade to 2.0!
-      version: We've released a new version of Greenlight, but your database isn't compatible.
+      version: We've released a new version of CSI Connect, but your database isn't compatible.
     messages:
       blank: can't be blank
       too_short: is too short
@@ -273,7 +273,7 @@ en:
       domain: must end with "%{email_domain}"
     no_provider:
       message: The site you are trying to access is not enabled
-      help: Please contact your system administrator to setup Greenlight
+      help: Please contact your system administrator to setup CSI Connect
     not_found:
       message: Sorry! The page you are looking for does not exist.
       help: Is it possible its been removed?
@@ -303,7 +303,7 @@ en:
     email: Email
     submit: Submit
   go_back: Go back
-  greenlight: Greenlight
+  greenlight: CSI Connect
   header:
     all_recordings: All Recordings
     dropdown:
@@ -329,10 +329,10 @@ en:
       start: Start searching...
   landing:
     about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to BigBlueButton.
-    video: Watch our tutorial on using Greenlight
+    welcome: Welcome to CSI Connect.
+    video: Watch our tutorial on using CSI Connect
     upgrade: Show me how to upgrade to 2.0!
-    version: We've released a new version of Greenlight, but your database isn't compatible.
+    version: We've released a new version of CSI Connect, but your database isn't compatible.
   language_default: Default (browser language)
   ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
   login: Sign in
@@ -344,10 +344,10 @@ en:
         signin: To access your personal rooms, click the button below and sign in.
         signin_link: Sign In
         signup:
-          info: A new user has signed up to use Greenlight.
-          more-info: To allow this user to access Greenlight you must approve their account in organization settings.
+          info: A new user has signed up to use CSI Connect.
+          more-info: To allow this user to access CSI Connect you must approve their account in organization settings.
           admins_link: Visit the Organization Page
-          subject: New Greenlight User Sign Up
+          subject: New CSI Connect User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
         subject: Account Approved
         username: Your username is %{email}.
@@ -362,11 +362,11 @@ en:
         signup_link: Sign Up
         valid: "The invite is valid until: %{date}"
         signup:
-          info: A user that was invited has signed up to use Greenlight.
+          info: A user that was invited has signed up to use CSI Connect.
           admins_link: Visit the Organization Page
-          subject: New Greenlight User Sign Up
+          subject: New CSI Connect User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
-        subject: Invitation to join BigBlueButton
+        subject: Invitation to join CSI Connect
         username: Your username is %{email}.
       password_reset:
         title: 'Password reset'
@@ -570,7 +570,7 @@ en:
     enter_the_moderator_access_code: Enter the room's moderator code!
     optional_moderator_access_code: "Optional Moderator Code:"
     invalid_provider: You have entered an invalid url. Please check the url and try again.
-    invitation_description: You have been invited to join %{name} using BigBlueButton. To join, click the link above and enter your name.
+    invitation_description: You have been invited to join %{name} using CSI Connect. To join, click the link above and enter your name.
     invited: You have been invited to join
     recording_present: I acknowledge that this session is going to be recorded. This may include my voice and video if enabled.
     invite_participants: Invite Participants
