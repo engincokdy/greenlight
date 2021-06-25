@@ -18,8 +18,8 @@ jobs:
       - name: Login to Github Container Registry
         uses: docker/login-action@v1
         with:
-          username: engincokdy
-          password: egimt82!BJK!
+          username: csiconnect
+          password: LeyZBLFYu23Xqjbzz3cv6334
 
       - name: Compute Short SHA
         uses: farhatahmad/short-sha@v1.2
